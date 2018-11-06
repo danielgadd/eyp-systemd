@@ -19,6 +19,3 @@ NTP=<%= @servers.join(' ') %>
 <% if @servers.any? -%>
 FallbackNTP=<%= @fallback_servers.join(' ') %>
 <% end -%>
-RootDistanceMaxSec=<%= @root_distance_max_sec %>
-PollIntervalMinSec=<%= @poll_interval_min_sec %>
-PollIntervalMaxSec=<%= @poll_interval_max_sec %>
